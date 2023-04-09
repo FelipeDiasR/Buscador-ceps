@@ -1,0 +1,89 @@
+
+.container{ 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#121212, #94a1c4);
+
+
+}
+
+.title{
+font-size: 85px;
+color: #c0c4ce;
+animation: Mexendotitle 2s;
+
+
+}
+
+@keyframes Mexendotitle {
+
+    from{
+        transform: rotatex(90deg);
+
+    }
+    to{
+
+        transform: rotatex(0deg);
+    
+    }
+    
+}
+
+
+
+.inputcep{
+
+    padding: 15px;
+    margin: 34px 0;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+    
+
+
+}
+
+.inputcep input{
+background-color: transparent;
+color: #ffffff;
+border: 0;
+font-size: 20px;
+color: #fff;
+outline: none;
+
+}
+
+.inputcep input::placeholder{
+color: #f1f1f1;
+
+
+    
+}
+
+.buttonsearch{
+background-color: transparent;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+transition: 0.5s;
+
+}
+
+.buttonsearch:hover{
+transform: scale(1.4);
+
+}
+
+
+.main{
+    color: #fafafa;
+    flex-direction: column;
+    position: relative;
+    top: 100px; 
+    right: 100px;
+
+}
